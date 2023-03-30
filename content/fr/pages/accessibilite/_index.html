@@ -1,7 +1,7 @@
 ---
 title: >
-  Accessibilité
-breadcrumb_title: "Accessibilité"
+  Épisodes
+breadcrumb_title: "Épisodes"
 url: "/accessibilite/"
 slug: "accessibilite"
 
@@ -12,11 +12,14 @@ design:
     present: false
     offcanvas: false
 
-position: 6
+position: 1
 translation_key: communication-website-page-8a360d27-e9e3-4e22-bc14-241343ef44ce
 
 bodyclass: 
 
+children:
+  - /accessibilite/lamblyopie/
+  - /accessibilite/lhyperactivite/
 meta_description: >
   
 description: >
@@ -28,8 +31,24 @@ description_short: >
   
 
 header_text: >-
-  
+  Épisodes
 legacy_text: >
   
+blocks:
+  - template: pages
+    title: >-
+      Les épisodes
+    position: 1
+    data:
+      show_main_description: true
+      show_descriptions: true
+      show_images: true
+      layout: cards
+      pages:
+        - page: /accessibilite/lamblyopie/
+          slug: /accessibilite/lamblyopie/
+        - page: /accessibilite/lhyperactivite/
+          slug: /accessibilite/lhyperactivite/
+
 
 ---
