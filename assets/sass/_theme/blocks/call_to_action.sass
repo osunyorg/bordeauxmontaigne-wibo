@@ -1,0 +1,134 @@
+.block-call_to_action
+    --cta-background-color: #{$block-call-to-action-background}
+    @include in-page-with-or-without-sidebar
+        h2, h3
+            @include h5
+            margin-bottom: $spacing0
+    .call_to_action
+        color: $block-call-to-action-color
+        .description
+            a
+                color: inherit
+                text-decoration-color:  $block-call-to-action-color
+            p
+                @include h2
+        .actions
+            [role="group"]
+                @include media-breakpoint-down(desktop)
+                    display: flex
+                    flex-direction: column
+            a
+                @include meta
+                color: $block-call-to-action-color
+                margin-right: $spacing2
+                margin-top: $spacing1
+                text-decoration-color: rgba($block-call-to-action-color, .3)
+                display: inline-block
+                &:hover
+                    text-decoration-color: $block-call-to-action-color
+                &:first-child
+                    @include btn
+                    background: $block-call-to-action-button-background
+                    color: $block-call-to-action-button-color
+                &:last-child
+                    margin-bottom: 0
+        * + .actions
+            margin-top: calc(#{$spacing2} - #{$spacing1})
+
+    @include media-breakpoint-down(desktop)
+        background-color: var(--cta-background-color)
+        padding-top: 0
+        padding-bottom: 0
+        .call_to_action
+            padding: $spacing3 0
+            .actions
+                a
+                    margin-right: $spacing1
+                    &:last-child
+                        margin-bottom: 0
+        .call_to_action--with-image
+            padding-top: half($grid-gutter-sm)
+            display: flex
+            flex-direction: column
+            > *
+                order: 2
+            picture
+                margin-bottom: offset(1)
+                order: 1
+
+    @include in-page-with-sidebar
+        .call_to_action
+            display: flex
+            flex-direction: column
+            > *
+                order: 2
+            > div
+                background-color: var(--cta-background-color)
+                padding: $grid-gutter
+                width: 100%
+                position: relative
+                &::after
+                    background-color: var(--cta-background-color)
+                    content: ''
+                    display: block
+                    position: absolute
+                    top: 0
+                    bottom: 0
+                    width: Max(#{$grid-gutter}, calc(50vw - #{half($grid-max-width)} + #{$grid-gutter}))
+            &--with-image
+                picture
+                    order: 1
+                    padding-left: $grid-gutter
+                    padding-right: $grid-gutter
+                    position: relative
+                    z-index: 2
+                    img
+                        width: col(3, 6)
+                        margin-bottom: calc(-#{$grid-gutter} + -#{$spacing1})
+                > div
+                    padding-top: calc(#{$grid-gutter} + #{$spacing3})
+
+    @include media-breakpoint-up(desktop)
+        @include in-page-without-sidebar
+            background-color: var(--cta-background-color)
+            padding-top: 0
+            padding-bottom: 0
+            .block-content
+                padding: $spacing4 $grid-gutter
+                margin-left: -$grid-gutter
+                margin-right: -$grid-gutter
+            .call_to_action--with-image
+                align-items: start
+                display: grid
+                grid-template-columns: repeat(12,1fr)
+                > div
+                    grid-column: 1/7
+                > picture
+                    grid-column: 8/13
+            .call_to_action--without-image
+                display: block
+                > div
+                    column-gap: $grid-gutter
+                    display: grid
+                    grid-template-columns: repeat(12,1fr)
+                    h2, h3, .description
+                        grid-column: 1/9
+                    .actions
+                        align-items: flex-start
+                        display: flex
+                        flex-direction: column
+                        grid-column: 1/14
+                        margin-top: 0
+                        a
+                            margin-right: 0
+                            &:first-child
+                                margin-top: 0
+                        a + a
+                            margin-top: $spacing1
+                @include media-breakpoint-down(lg)
+                    > div
+                        h2, h3, .description
+                            grid-column: 1/8
+                        .actions
+                            grid-column: 9/13
+
