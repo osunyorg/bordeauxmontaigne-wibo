@@ -17,4 +17,8 @@ items:
     target: "/"
     kind: page
     children: []
+  - title: Épisodes
+    target: "/episodes/"
+    kind: page
+    children: []
 
