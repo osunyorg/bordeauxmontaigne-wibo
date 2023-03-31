@@ -5,6 +5,18 @@ items:
   target: "/mentions-legales/"
   kind: page
   children: []
+- title: Informations
+  target: ''
+  kind: blank
+  children:
+  - title: Politique de confidentialité
+    target: https://www.leshistoiresdewibo.fr/politique-de-confidentialite/
+    kind: url
+    children: []
+  - title: Mentions légales
+    target: https://www.leshistoiresdewibo.fr/mentions-legales/
+    kind: url
+    children: []
 - title: Plan du site
   target: ''
   kind: blank
@@ -32,21 +44,5 @@ items:
   - title: wibo.witeam@gmail.com
     target: ''
     kind: blank
-    children: []
-- title: Politique de confidentialité
-  target: "/politique-de-confidentialite/"
-  kind: page
-  children: []
-- title: Informations
-  target: ''
-  kind: blank
-  children:
-  - title: Politique de confidentialité
-    target: https://www.leshistoiresdewibo.fr/politique-de-confidentialite/
-    kind: url
-    children: []
-  - title: Mentions légales
-    target: https://www.leshistoiresdewibo.fr/mentions-legales/
-    kind: url
     children: []
 
