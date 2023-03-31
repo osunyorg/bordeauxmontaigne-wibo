@@ -5,8 +5,8 @@ items:
   target: https://www.instagram.com/leshistoiresdewibo/
   kind: url
   children: []
-- title: Fac
-  target: ''
-  kind: blank
+- title: Facebook
+  target: https://www.facebook.com/people/Wibo-Witeam/100091060039067
+  kind: url
   children: []
 
