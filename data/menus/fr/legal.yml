@@ -29,4 +29,8 @@ items:
     target: "/a-propos/"
     kind: page
     children: []
+- title: Contacts
+  target: ''
+  kind: blank
+  children: []
 
