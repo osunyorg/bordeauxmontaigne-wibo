@@ -1,6 +1,10 @@
 ---
 title: Liens sociaux
 items:
+- title: Youtube
+  target: https://www.youtube.com/@leshistoiresdeWibo
+  kind: url
+  children: []
 - title: Instagram
   target: https://www.instagram.com/leshistoiresdewibo/
   kind: url
