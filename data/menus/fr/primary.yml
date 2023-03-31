@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Accueil
+  target: https://www.leshistoiresdewibo.fr/
+  kind: url
+  children: []
 - title: Épisodes
   target: https://www.leshistoiresdewibo.fr/episodes/
   kind: url
