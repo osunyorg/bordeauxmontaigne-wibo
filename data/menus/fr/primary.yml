@@ -6,8 +6,8 @@ items:
   kind: page
   children: []
 - title: Épisodes
-  target: https://www.leshistoiresdewibo.fr/episodes/
-  kind: url
+  target: "/episodes/"
+  kind: page
   children: []
 - title: Remerciements
   target: https://www.leshistoiresdewibo.fr/remerciements/
