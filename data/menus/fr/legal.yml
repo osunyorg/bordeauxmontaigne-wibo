@@ -41,12 +41,4 @@ items:
     target: https://www.youtube.com/@leshistoiresdeWibo
     kind: url
     children: []
-  - title: Instagram
-    target: https://www.instagram.com/leshistoiresdewibo/
-    kind: url
-    children: []
-  - title: Facebook
-    target: https://www.facebook.com/people/Wibo-Witeam/100091060039067
-    kind: url
-    children: []
 
