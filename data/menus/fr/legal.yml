@@ -41,8 +41,4 @@ items:
   target: ''
   kind: blank
   children: []
-- title: Politique de confidentialité
-  target: "/politique-de-confidentialite/"
-  kind: page
-  children: []
 
