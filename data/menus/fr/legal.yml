@@ -37,8 +37,8 @@ items:
   target: "/politique-de-confidentialite/"
   kind: page
   children: []
-- title: Informations
-  target: ''
-  kind: blank
+- title: Politique de confidentialité
+  target: "/politique-de-confidentialite/"
+  kind: page
   children: []
 
