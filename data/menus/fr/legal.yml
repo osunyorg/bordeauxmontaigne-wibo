@@ -40,5 +40,9 @@ items:
 - title: Informations
   target: ''
   kind: blank
-  children: []
+  children:
+  - title: Politique de confidentialité
+    target: https://www.leshistoiresdewibo.fr/politique-de-confidentialite/
+    kind: url
+    children: []
 
