@@ -10,8 +10,8 @@ items:
   kind: page
   children: []
 - title: Plan du site
-  target: "/plan-du-site/"
-  kind: page
+  target: ''
+  kind: blank
   children:
   - title: Accueil
     target: "/"
