@@ -12,5 +12,9 @@ items:
 - title: Plan du site
   target: "/plan-du-site/"
   kind: page
-  children: []
+  children:
+  - title: Accueil
+    target: "/"
+    kind: page
+    children: []
 
