@@ -10,8 +10,8 @@ items:
   kind: page
   children: []
 - title: Remerciements
-  target: https://www.leshistoiresdewibo.fr/remerciements/
-  kind: url
+  target: "/remerciements/"
+  kind: page
   children: []
 - title: À propos
   target: https://www.leshistoiresdewibo.fr/a-propos/
