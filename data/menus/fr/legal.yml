@@ -29,7 +29,7 @@ items:
     target: "/a-propos/"
     kind: page
     children: []
-- title: Contacts
+- title: Contact
   target: ''
   kind: blank
   children:
