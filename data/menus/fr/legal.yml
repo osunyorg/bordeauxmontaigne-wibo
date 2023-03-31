@@ -21,4 +21,8 @@ items:
     target: "/episodes/"
     kind: page
     children: []
+  - title: Remerciements
+    target: "/remerciements/"
+    kind: page
+    children: []
 
