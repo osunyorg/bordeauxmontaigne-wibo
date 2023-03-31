@@ -37,4 +37,8 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Youtube
+    target: https://www.youtube.com/@leshistoiresdeWibo
+    kind: url
+    children: []
 
