@@ -45,4 +45,8 @@ items:
     target: https://www.leshistoiresdewibo.fr/politique-de-confidentialite/
     kind: url
     children: []
+  - title: Mentions légales
+    target: https://www.leshistoiresdewibo.fr/mentions-legales/
+    kind: url
+    children: []
 
