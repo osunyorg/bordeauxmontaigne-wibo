@@ -9,4 +9,8 @@ items:
   target: https://www.leshistoiresdewibo.fr/remerciements/
   kind: url
   children: []
+- title: À propos
+  target: https://www.leshistoiresdewibo.fr/a-propos/
+  kind: url
+  children: []
 
