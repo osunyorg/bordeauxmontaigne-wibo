@@ -1,0 +1,38 @@
+{{ $show_descriptions := .show_descriptions }}
+{{ $show_images := .show_images }}
+<div class="cards">
+  {{ range .pages }}
+  {{- $page := partial "GetPageByUrl" .page -}}
+  {{ with $page }}
+  <article class="card" style="display:flex; flex-direction:column; align-items: center">
+    <h3 style="width:73%">
+      <b>
+        <h2>
+          {{- partial "PrepareHTML" .Title -}}
+        </h2>
+      </b>
+    </h3>
+
+    {{ if and $show_descriptions .Params.summary }}
+    {{ if site.Params.pages.index.truncate_description }}
+    <p style="width:73%">{{ partial "GetTruncateContent" ( dict
+      "text" .Params.summary
+      "length" site.Params.pages.index.truncate_description
+      ) }}</p>
+    {{ else }}
+    <p>{{ partial "PrepareText" .Params.summary }}</p>
+    {{ end }}
+    {{ end }}
+
+    <a href="{{- .Permalink -}}"><button
+        style="margin-top: 65px; width: 14.1vw; height: 60px; border: none; border-radius: 15px; background-color: #E79485; justify-self:center">
+        <h3><b>Regarder</b></h3>
+      </button>
+    </a>
+    {{ if $show_images }}
+    {{- partial "pages/page-media.html" . -}}
+    {{ end }}
+  </article>
+  {{- end -}}
+  {{ end }}
+</div>
