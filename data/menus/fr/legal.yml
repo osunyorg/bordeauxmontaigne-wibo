@@ -1,20 +1,44 @@
 ---
-title: Informations légales
+title: Footer
 items:
-- title: Mentions légales
-  target: "/mentions-legales/"
-  kind: page
-  children: []
-- title: Politique de confidentialité
-  target: "/politique-de-confidentialite/"
-  kind: page
-  children: []
-- title: Accessibilité
-  target: "/episodes/"
-  kind: page
-  children: []
+- title: Informations
+  target: ''
+  kind: blank
+  children:
+  - title: Politique de confidentialité
+    target: https://www.leshistoiresdewibo.fr/politique-de-confidentialite/
+    kind: url
+    children: []
+  - title: Mentions légales
+    target: https://www.leshistoiresdewibo.fr/mentions-legales/
+    kind: url
+    children: []
 - title: Plan du site
-  target: "/plan-du-site/"
-  kind: page
-  children: []
+  target: ''
+  kind: blank
+  children:
+  - title: Accueil
+    target: "/"
+    kind: page
+    children: []
+  - title: Épisodes
+    target: "/episodes/"
+    kind: page
+    children: []
+  - title: Remerciements
+    target: "/remerciements/"
+    kind: page
+    children: []
+  - title: À propos
+    target: "/a-propos/"
+    kind: page
+    children: []
+- title: Contact
+  target: ''
+  kind: blank
+  children:
+  - title: wibo.witeam@gmail.com
+    target: ''
+    kind: blank
+    children: []
 
