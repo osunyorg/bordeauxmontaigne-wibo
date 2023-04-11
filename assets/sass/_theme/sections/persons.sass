@@ -1,0 +1,228 @@
+.persons__page
+    h2
+        @include h5
+        a
+            @include icon(arrow-right, after, true)
+                display: inline-flex
+                margin-left: half($spacing0)
+                transition: transform .3s ease
+            &:hover::after
+                transform: translateX($spacing0)
+    // TODO : voir comment gérer les marges comme pour les blocs (pb footer)
+    section
+        padding-bottom:  $grid-gutter
+    ol.programs
+        li
+            justify-content: flex-start
+            @include media-breakpoint-up(desktop)
+                @include grid(2)
+            @include icon(arrow-right, after, true)
+                color: inherit
+                position: absolute
+                right: 0
+                top: $spacing1
+                transform: translateY(half($spacing0))
+                @include media-breakpoint-up(desktop)
+                    transform: translateY(half($spacing1))
+            a
+                color: inherit
+                @include stretched-link(before)
+                @include media-breakpoint-down(desktop)
+                    margin-right: $spacing1
+            p
+                margin-top: unset
+                &:nth-child(2)
+                    @include small
+            &:hover
+                color: $color-accent
+
+.person
+    @include article
+    word-break: break-word
+    .avatar
+        align-self: start
+        flex-shrink: 0
+        order: -1
+        margin-bottom: $spacing1
+
+    .name
+        @include h4
+        a
+            @include stretched-link
+            text-decoration: none
+        + p
+            display:none
+    .description
+        @include small
+    @include media-breakpoint-down(md)
+        flex-direction: row
+        justify-content: space-between
+        .avatar
+            align-self: start
+            flex-shrink: 0
+            order: 2
+            margin-left: $spacing0
+            margin-bottom: 0
+            width: 100px
+    @include media-breakpoint-up(desktop)
+        @include in-page-without-sidebar
+            text-align: center
+            .avatar
+                width: 100%
+
+section.persons,
+div.persons
+    @include grid(1)
+    @include grid(2, md)
+    @include grid(3, lg)
+    @include grid(5, xl)
+    @include grid(6, xxl)
+
+ol.persons--list
+    @include list-reset
+    > li
+        border-bottom: 1px solid $color-border
+        padding-bottom: $spacing1
+        padding-top: $spacing1
+        position: relative
+        transition: color 0.5s
+        @include icon(arrow, after)
+            margin-left: auto
+        &:hover
+            color: $color-accent
+            justify-self: end
+        a
+            @include stretched-link
+            text-decoration: none
+            color: inherit
+        [itemprop="jobTitle"]
+            @include small
+            margin-top: 0
+        @include media-breakpoint-up(desktop)
+            align-items: baseline
+            display: flex
+            [itemprop="name"]
+                width: col(5)
+            [itemprop="jobTitle"]
+                width: col(6)
+                display:none
+                margin-left: $grid-gutter
+        @include media-breakpoint-down(desktop)
+            &::after
+                position: absolute
+                right: 0
+                top: calc(#{$spacing1} + 10px)
+
+.avatar
+    // @include aspect-ratio(50, 'img')
+    background-color: $persons-avatar-background-color
+    border-radius: 50%
+    // margin-bottom: $spacing2
+    overflow: hidden
+    position: relative
+    // width: 100%
+    &::before
+        content: ""
+        display: block
+        padding-top: 100%
+    picture, img
+        @include inset(0)
+        height: 100%
+        width: 100%
+        position: absolute
+    img
+        object-fit: cover
+
+/* TODO revoir ce nom */
+.taxonomies-persons
+    @include list-reset
+    li
+        @include media-breakpoint-down(desktop)
+            margin-bottom: $spacing1
+            a
+                display: block
+        @include media-breakpoint-up(desktop)
+            display: inline-block
+            margin-right: $spacing2
+    a
+        @include link
+        @include link-hovered-underline-only
+        @include meta
+        @include icon(arrow, after)
+            margin-left: $spacing1
+
+.lead + .taxonomies-persons
+    margin-top: $spacing-section-y
+
+.persons__section
+    * + .persons
+        margin-top: $spacing-section-y
+    .persons:last-child
+        padding-bottom: $spacing3
+
+.persons__page
+    .hero
+        @include media-breakpoint-down(desktop)
+            padding-bottom: 0
+            margin-bottom: $spacing4
+            .avatar
+                width: col(6)
+                margin-top: $spacing1
+                margin-left: auto
+                transform: translateY(100px)
+                margin-top: calc(#{$spacing1} - 100px)
+        @include media-breakpoint-down(sm)
+            margin-bottom: $spacing4
+            .avatar
+                transform: translateY(18vw)
+                margin-top: calc(#{$spacing1} - 18vw)
+        @include media-breakpoint-up(desktop)
+            .content
+                align-items: center
+                display: flex
+                justify-content: space-between
+                margin-top: 0
+                h1
+                    margin-bottom: 0
+                    width: col(8)
+                .avatar
+                    margin-bottom: 0
+                    width: col(3)
+    .roles
+        a
+            @include small
+    .blocks
+        margin-top: $spacing3
+    .person-programs,
+    .person-objects,
+    .person-publications
+        margin-top: $spacing4
+        .publication
+            border-bottom: 1px solid $color-border
+            padding-bottom: $spacing1
+            padding-top: $spacing0
+            .title
+                margin-bottom: calc(#{$spacing0}/2)
+            .ref
+                color: $color-text-alt
+                margin-top: 0
+                @include small
+    @include media-breakpoint-down(lg)
+        .roles
+            margin-top: $spacing2
+    @include media-breakpoint-up(lg)
+        .informations
+            @include grid
+            margin-bottom: $spacing2
+            > div:first-of-type
+                grid-column: 1 / 9
+            .roles
+                grid-column: 9 / 13
+                text-align: right
+            .lead + div
+                margin-top: $spacing2
+    .contacts-details ul
+        @include grid(2, md, 0)
+        li
+            margin-top: 0
+            margin-bottom: $spacing1
