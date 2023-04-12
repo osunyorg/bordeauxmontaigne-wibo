@@ -9,9 +9,9 @@ items:
     target: https://www.leshistoiresdewibo.fr/politique-de-confidentialite/
     kind: url
     children: []
-  - title: Mentions légales
-    target: https://www.leshistoiresdewibo.fr/mentions-legales/
-    kind: url
+  - title: Conditions Générales d'Utilisation
+    target: "/mentions-legales/"
+    kind: page
     children: []
 - title: Plan du site
   target: ''
