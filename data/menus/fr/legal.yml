@@ -29,14 +29,14 @@ items:
     target: "/remerciements/"
     kind: page
     children: []
+  - title: Actualités
+    target: "/actualites/"
+    kind: page
+    children: []
   - title: À propos
     target: "/a-propos/"
     kind: page
     children: []
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  children: []
 - title: Contact
   target: ''
   kind: blank
