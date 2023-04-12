@@ -6,8 +6,8 @@ items:
   kind: blank
   children:
   - title: Politique de confidentialité
-    target: https://www.leshistoiresdewibo.fr/politique-de-confidentialite/
-    kind: url
+    target: "/politique-de-confidentialite/"
+    kind: page
     children: []
   - title: Conditions Générales d'Utilisation
     target: "/mentions-legales/"
