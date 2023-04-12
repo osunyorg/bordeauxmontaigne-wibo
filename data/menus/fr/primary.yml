@@ -9,6 +9,10 @@ items:
   target: "/episodes/"
   kind: page
   children: []
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  children: []
 - title: Remerciements
   target: "/remerciements/"
   kind: page
