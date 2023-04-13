@@ -13,4 +13,8 @@ items:
   target: https://www.facebook.com/people/Wibo-Witeam/100091060039067
   kind: url
   children: []
+- title: wibo.witeam@gmail.com
+  target: mailto:wibo.witeam@gmail.com
+  kind: url
+  children: []
 
