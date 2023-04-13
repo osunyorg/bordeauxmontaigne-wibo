@@ -1,18 +1,18 @@
 ---
 title: Footer
 items:
+- title: Politique de confidentialité
+  target: "/politique-de-confidentialite/"
+  kind: page
+  children: []
+- title: Conditions Générales d'Utilisation
+  target: "/mentions-legales/"
+  kind: page
+  children: []
 - title: Informations
   target: ''
   kind: blank
-  children:
-  - title: Politique de confidentialité
-    target: "/politique-de-confidentialite/"
-    kind: page
-    children: []
-  - title: Conditions Générales d'Utilisation
-    target: "/mentions-legales/"
-    kind: page
-    children: []
+  children: []
 - title: Plan du site
   target: ''
   kind: blank
