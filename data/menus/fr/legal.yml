@@ -13,28 +13,4 @@ items:
   target: ''
   kind: blank
   children: []
-- title: Plan du site
-  target: ''
-  kind: blank
-  children:
-  - title: Accueil
-    target: "/"
-    kind: page
-    children: []
-  - title: Épisodes
-    target: "/episodes/"
-    kind: page
-    children: []
-  - title: Actualités
-    target: "/actualites/"
-    kind: page
-    children: []
-  - title: Remerciements
-    target: "/remerciements/"
-    kind: page
-    children: []
-  - title: À propos
-    target: "/a-propos/"
-    kind: page
-    children: []
 
