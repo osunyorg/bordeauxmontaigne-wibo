@@ -1,6 +1,4 @@
 .page__home
-    .hero
-        display: none
     @include media-breakpoint-up(desktop)
         .block-chapter:nth-of-type(odd)
             .chapter
@@ -8,11 +6,9 @@
                 justify-content: space-between
             figure
                 margin-left: 0 !important
-.hero 
-    padding-bottom: 0
-    .content + .breadcrumb-nav
-        margin-top: $spacing2
-
+.block-call_to_action
+    picture.is-svg
+        text-align: center
 @include media-breakpoint-up(desktop)
     .toc-title
         display: none
