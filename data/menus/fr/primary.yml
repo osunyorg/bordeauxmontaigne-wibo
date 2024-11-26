@@ -5,20 +5,25 @@ items:
   target: "/"
   kind: page
   children: []
+  file: content/fr/_index.html
 - title: Épisodes
   target: "/episodes/"
   kind: page
   children: []
+  file: content/fr/pages/episodes/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
   children: []
+  file: content/fr/posts/_index.html
 - title: Remerciements
   target: "/remerciements/"
   kind: page
   children: []
+  file: content/fr/pages/remerciements/_index.html
 - title: À propos
   target: "/a-propos/"
   kind: page
   children: []
+  file: content/fr/pages/a-propos/_index.html
 
