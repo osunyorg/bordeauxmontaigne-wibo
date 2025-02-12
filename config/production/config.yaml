@@ -2,6 +2,11 @@
 
 baseURL: https://www.leshistoiresdewibo.fr
 
+## OSUNY
+osuny:
+  website:
+    id: 0bb4f85e-3bfe-4b1c-adc4-f557d26e58ad
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
