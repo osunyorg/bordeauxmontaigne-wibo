@@ -2,23 +2,31 @@
 title: Suivez-nous
 items:
 - title: Youtube
+  slug: youtube
   target: https://www.youtube.com/@leshistoiresdeWibo
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Instagram
+  slug: instagram
   target: https://www.instagram.com/leshistoiresdewibo/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Facebook
+  slug: facebook
   target: https://www.facebook.com/people/Wibo-Witeam/100091060039067
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: wibo.witeam@gmail.com
+  slug: wibo-witeam-gmail-com
   target: mailto:wibo.witeam@gmail.com
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 
