@@ -7,6 +7,11 @@ osuny:
   website:
     id: 0bb4f85e-3bfe-4b1c-adc4-f557d26e58ad
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "leshistoiresdewibo.fr"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
