@@ -11,3 +11,96 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "0"
     X-Content-Type-Options = "nosniff"
+
+[[redirects]]
+  from = "/accessibilite/la-surdite/"
+  to = "/episodes/la-surdite/"
+
+[[redirects]]
+  from = "/matteo-lambert/actualites/"
+  to = "/equipe/matteo-lambert/actualites/"
+
+[[redirects]]
+  from = "/mael-ledrin/"
+  to = "/equipe/mael-ledrin/"
+
+[[redirects]]
+  from = "/wazna-harmach/"
+  to = "/equipe/wazna-harmach/"
+
+[[redirects]]
+  from = "/claire-vital/"
+  to = "/equipe/claire-vital/"
+
+[[redirects]]
+  from = "/nino-lefort/"
+  to = "/equipe/nino-lefort/"
+
+[[redirects]]
+  from = "/julie-rondof/actualites/"
+  to = "/equipe/julie-rondof/actualites/"
+
+[[redirects]]
+  from = "/accessibilite/lagrossophobie/"
+  to = "/episodes/lagrossophobie/"
+
+[[redirects]]
+  from = "/stereoptypes-de-genre/"
+  to = "/episodes/stereoptypes-de-genre/"
+
+[[redirects]]
+  from = "/equipe-editoriale/"
+  to = "/equipe/equipe-editoriale/"
+
+[[redirects]]
+  from = "/julie-rondof/"
+  to = "/equipe/julie-rondof/"
+
+[[redirects]]
+  from = "/lilou-lopez-guilloret/"
+  to = "/equipe/lilou-lopez-guilloret/"
+
+[[redirects]]
+  from = "/accessibilite/"
+  to = "/episodes/"
+
+[[redirects]]
+  from = "/accessibilite/leracisme/"
+  to = "/episodes/leracisme/"
+
+[[redirects]]
+  from = "/lhyperactivite/"
+  to = "/episodes/lhyperactivite/"
+
+[[redirects]]
+  from = "/elodie-laisne/"
+  to = "/equipe/elodie-laisne/"
+
+[[redirects]]
+  from = "/accessibilite/lamblyopie/"
+  to = "/episodes/lamblyopie/"
+
+[[redirects]]
+  from = "/asthme/"
+  to = "/episodes/asthme/"
+
+[[redirects]]
+  from = "/quentin-wegera/"
+  to = "/equipe/quentin-wegera/"
+
+[[redirects]]
+  from = "/noe-braud/"
+  to = "/equipe/noe-braud/"
+
+[[redirects]]
+  from = "/matteo-lambert/"
+  to = "/equipe/matteo-lambert/"
+
+[[redirects]]
+  from = "/accessibilite/lhyperactivite/"
+  to = "/episodes/lhyperactivite/"
+
+[[redirects]]
+  from = "/peyo-suire/"
+  to = "/equipe/peyo-suire/"
+
